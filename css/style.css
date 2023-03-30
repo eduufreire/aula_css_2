@@ -67,6 +67,7 @@ p span{
 /* --| ESTILIZAÇÃO SOCIAL |-- */
 .social{
     width: 100%;
+    height: 450px;
     background-color: #ececec;
 }
 
@@ -87,12 +88,27 @@ p span{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 30px;
 }
 
 .card h1{
-    color: #d62e71
+    margin: 15px 0 3px 0;
+    color: #d62e71;
 }
 
+
+/* --| ESTILIZAÇÃO FOOTER |-- */
+.footer{
+    width: 100%;
+    background-color: rgb(29, 174, 231);    
+    color: white;
+}
+
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
 
 
