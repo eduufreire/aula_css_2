@@ -6,7 +6,7 @@
 .form{
     background-color: white;
     width: 350px;
-    height: 320px;
+    height: 450px;
     color: rgb(29, 174, 231);    ;
 
     display: flex;
@@ -23,12 +23,16 @@
     margin-bottom: 0;
 }
 
+h1{
+    margin: 10px 0;
+}
+
 input{
     border: 2px solid rgb(29, 174, 231);
     border-radius: 10px;
 
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 button{
@@ -41,4 +45,5 @@ button{
     border-radius: 10px;
 
     align-self: center;
+    margin-top: 10px;
 }
